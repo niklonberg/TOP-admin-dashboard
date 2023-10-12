@@ -24,4 +24,12 @@
   #dashboard-header {
     display: grid;
   }
+
+  #dashboard-header > *:first-child {
+    background-color: red;
+  }
+
+  #dashboard-header > *:last-child {
+    background-color: blue;
+  }
 }
