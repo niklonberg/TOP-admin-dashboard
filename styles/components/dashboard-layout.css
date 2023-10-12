@@ -1,0 +1,6 @@
+@layer page {
+  #dashboard-layout {
+    display: grid;
+    grid-template: minmax(150px, 25vh) 1fr / minmax(200px, 1fr) 5fr;
+  }
+}
