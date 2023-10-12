@@ -1,1 +1,7 @@
 @layer base, component, page;
+
+@import url(./styles/components/nav.css);
+@import url(./styles/components/header.css);
+@import url(./styles/components/projects-list.css);
+@import url(./styles/components/announcements-list.css);
+@import url(./styles/components/tweets-list.css);
