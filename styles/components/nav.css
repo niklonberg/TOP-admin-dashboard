@@ -2,13 +2,16 @@
   .nav {
     background-color: aqua;
     grid-area: nav;
-    padding: 20px;
+    padding: var(--med-gap);
+    display: grid;
+    grid-template-rows: repeat(3, auto) 1fr;
+    gap: var(--sm-gap);
   }
 
   .nav__title {
     margin: 0;
     display: flex;
-    gap: 10px;
+    gap: var(--sm-gap);
     align-items: center;
   }
 
@@ -17,9 +20,14 @@
     list-style: none;
   }
 
+  .nav-item {
+    margin-bottom: var(--sm-gap);
+  }
+
   .nav-item > a {
     display: flex;
-    gap: 20px;
+    gap: var(--med-gap);
     align-items: center;
+    text-decoration: none;
   }
 }
