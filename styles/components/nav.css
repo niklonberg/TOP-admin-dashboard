@@ -1,5 +1,6 @@
 @layer component {
   .nav {
     background-color: aqua;
+    grid-area: nav;
   }
 }
