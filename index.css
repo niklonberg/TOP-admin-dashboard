@@ -8,4 +8,5 @@
 @import url(./styles/components/tweets-list.css);
 @import url(./styles/components/search-bar.css);
 @import url(./styles/components/buttons.css);
-@import url(./styles/page/dashboard-layout.css);
+@import url(./styles/components/avatar.css);
+@import url(./styles/page/dashboard-page.css);
