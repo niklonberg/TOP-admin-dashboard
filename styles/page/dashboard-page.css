@@ -22,14 +22,9 @@
   }
 
   #dashboard-header {
+    padding: 10px 20px;
     display: grid;
-  }
-
-  #dashboard-header > *:first-child {
-    background-color: red;
-  }
-
-  #dashboard-header > *:last-child {
-    background-color: blue;
+    gap: var(--med-gap) var(--lg-gap);
+    grid-template: auto auto / 2fr 1fr;
   }
 }

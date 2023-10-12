@@ -2,6 +2,7 @@
   :root {
     --sm-gap: 10px;
     --med-gap: 20px;
+    --lg-gap: 40px;
   }
 
   *,
