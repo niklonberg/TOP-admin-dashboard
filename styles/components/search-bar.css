@@ -1,0 +1,19 @@
+@layer component {
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .search-label {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-bar input[type="search"] {
+    padding: 8px;
+    border-radius: 9999px;
+    background-color: lightblue;
+    border: 0;
+  }
+}
