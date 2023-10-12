@@ -11,4 +11,17 @@
   #dashboard-layout > * {
     outline: 1px solid black;
   }
+
+  #dashboard-nav {
+    background-color: aqua;
+    grid-area: nav;
+    padding: var(--med-gap);
+    display: grid;
+    grid-template-rows: repeat(3, auto) 1fr;
+    gap: var(--sm-gap);
+  }
+
+  #dashboard-header {
+    display: grid;
+  }
 }
