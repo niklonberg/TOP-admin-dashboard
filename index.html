@@ -16,44 +16,152 @@
     <div id="dashboard-layout">
       <nav id="dashboard-nav">
         <h1 class="nav__title">
-          <img src="/assets/icons/view-dashboard.svg" alt="" width="40px" height="40px">Dashboard
+          <img
+            src="/assets/icons/view-dashboard.svg"
+            alt=""
+            width="40"
+            height="40"
+          />Dashboard
         </h1>
         <ul class="nav__list">
-          <li class="nav-item"><a href="#"><img src="/assets/icons/home-account.svg" alt="" width="25" height="25">Home</a></li>
-          <li class="nav-item"><a href="#"><img src="/assets/icons/card-account-details.svg" alt="" width="25" height="25">Profile</a></li>          
-          <li class="nav-item"><a href="#"><img src="/assets/icons/message-reply.svg" alt="" width="25" height="25">Messages</a></li>
-          <li class="nav-item"><a href="#"><img src="/assets/icons/clock-time-five.svg" alt="" width="25" height="25">History</a></li>
-          <li class="nav-item"><a href="#"><img src="/assets/icons/note-multiple.svg" alt="" width="25" height="25">Tasks</a></li>
-          <li class="nav-item"><a href="#"><img src="/assets/icons/account-group.svg" alt="" width="25" height="25">Communities</a></li>
+          <li class="nav-item">
+            <a href="#"
+              ><img
+                src="/assets/icons/home-account.svg"
+                alt=""
+                width="25"
+                height="25"
+              />Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><img
+                src="/assets/icons/card-account-details.svg"
+                alt=""
+                width="25"
+                height="25"
+              />Profile</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><img
+                src="/assets/icons/message-reply.svg"
+                alt=""
+                width="25"
+                height="25"
+              />Messages</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><img
+                src="/assets/icons/clock-time-five.svg"
+                alt=""
+                width="25"
+                height="25"
+              />History</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><img
+                src="/assets/icons/note-multiple.svg"
+                alt=""
+                width="25"
+                height="25"
+              />Tasks</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><img
+                src="/assets/icons/account-group.svg"
+                alt=""
+                width="25"
+                height="25"
+              />Communities</a
+            >
+          </li>
         </ul>
         <ul class="nav__list">
-          <li class="nav-item"><a href="#"><img src="/assets/icons/cog.svg" alt="" width="25" height="25">Settings</a></li>
-          <li class="nav-item"><a href="#"><img src="/assets/icons/chat-question.svg" alt="" width="25" height="25">Support</a></li>
-          <li class="nav-item"><a href="#"><img src="/assets/icons/shield-check.svg" alt="" width="25" height="25">Privacy</a></li>
+          <li class="nav-item">
+            <a href="#"
+              ><img
+                src="/assets/icons/cog.svg"
+                alt=""
+                width="25"
+                height="25"
+              />Settings</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><img
+                src="/assets/icons/chat-question.svg"
+                alt=""
+                width="25"
+                height="25"
+              />Support</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><img
+                src="/assets/icons/shield-check.svg"
+                alt=""
+                width="25"
+                height="25"
+              />Privacy</a
+            >
+          </li>
         </ul>
       </nav>
       <header id="dashboard-header">
         <div class="search-bar">
           <label for="search" class="search-label">
             <button type="button" class="ax-btn search-btn">
-              <img src="/assets/icons/magnify.svg" alt="" width="25" height="25">
+              <img
+                src="/assets/icons/magnify.svg"
+                alt=""
+                width="25"
+                height="25"
+              />
             </button>
           </label>
           <input type="search" name="search" id="search" />
         </div>
         <div class="user-notifications">
           <button class="ax-btn" aria-label="Notifications">
-            <img src="/assets/icons/bell-ring-outline.svg" width="25" height="25" alt="">
+            <img
+              src="/assets/icons/bell-ring-outline.svg"
+              width="25"
+              height="25"
+              alt=""
+            />
           </button>
           <a href="#" class="user-link">
-            <img class="avatar" src="/assets/avatars/cat.jpg" width="50" height="50" alt="">
+            <img
+              class="avatar"
+              src="/assets/avatars/cat.jpg"
+              width="50"
+              height="50"
+              alt=""
+            />
             Morgan Oakley
           </a>
-        </div>      
+        </div>
         <div class="user-welcome">
-          <img class="avatar" src="/assets/avatars/cat.jpg" width="75" height="75" alt="">
+          <img
+            class="avatar"
+            src="/assets/avatars/cat.jpg"
+            width="75"
+            height="75"
+            alt=""
+          />
           <h2>
-            <span class="user-greeting">Hi there,</span><br>
+            <span class="user-greeting">Hi there,</span><br />
             Morgan Oakley (@morgan)
           </h2>
         </div>
@@ -64,9 +172,25 @@
         </div>
       </header>
       <main id="dashboard-main">
-        <section><h3>Your projects</h2></section>
-        <section><h3>Announcements</h3></section>
-        <section><h3>Trending</h3></section>
+        <section>
+          <h3>Your projects</h3>
+          <div id="projects-list">
+            <div class="project-card">
+              <h4>Automatic Potato Peeler</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectet r adipisicing elit.
+                Reprehenderit optio, odit debitis aut ipsa ex magni doloremque.
+                Beatae soluta ad laboriosam rerum voluptas cumque eos.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h3>Announcements</h3>
+        </section>
+        <section>
+          <h3>Trending</h3>
+        </section>
       </main>
     </div>
   </body>
