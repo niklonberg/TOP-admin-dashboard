@@ -8,10 +8,6 @@
       "nav content";
   }
 
-  #dashboard-layout > * {
-    outline: 1px solid black;
-  }
-
   #dashboard-nav {
     background-color: aqua;
     grid-area: nav;
@@ -26,6 +22,7 @@
     display: grid;
     gap: var(--med-gap) var(--lg-gap);
     grid-template: auto auto / 2fr 1fr;
+    box-shadow: 0px 8px 4px -4px rgba(0 0 0 / 0.2);
   }
 
   #dashboard-main {
