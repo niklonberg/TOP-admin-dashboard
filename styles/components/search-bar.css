@@ -15,5 +15,6 @@
     border-radius: 9999px;
     background-color: lightblue;
     border: 0;
+    flex: 1;
   }
 }
