@@ -1,6 +1,7 @@
 @layer component {
   .search-bar {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     gap: 15px;
   }
@@ -15,6 +16,6 @@
     border-radius: 9999px;
     background-color: lightblue;
     border: 0;
-    flex: 1;
+    flex-grow: 1;
   }
 }
