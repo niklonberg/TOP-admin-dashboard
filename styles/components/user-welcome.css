@@ -1,0 +1,11 @@
+@layer component {
+  .user-welcome {
+    display: flex;
+    align-items: center;
+    gap: var(--med-gap);
+  }
+
+  .user-greeting {
+    font-size: 0.875rem;
+  }
+}
