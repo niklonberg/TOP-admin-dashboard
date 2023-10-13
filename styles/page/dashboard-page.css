@@ -22,14 +22,14 @@
   }
 
   #dashboard-header {
-    padding: 10px 20px;
+    padding: var(--sm-gap) var(--lg-gap);
     display: grid;
     gap: var(--med-gap) var(--lg-gap);
     grid-template: auto auto / 2fr 1fr;
   }
 
   #dashboard-main {
-    padding-inline: 20px;
+    padding-inline: var(--med-gap);
     display: grid;
     grid-template: 1fr 1fr / 3fr 1fr;
   }

@@ -1,0 +1,14 @@
+@layer component {
+  .user-notifications {
+    justify-self: end;
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--med-gap);
+  }
+
+  .user-link {
+    display: flex;
+    align-items: center;
+    gap: var(--med-gap);
+  }
+}
