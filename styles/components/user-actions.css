@@ -1,0 +1,9 @@
+@layer component {
+  .user-actions {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    align-content: center;
+    gap: var(--lg-gap);
+  }
+}
