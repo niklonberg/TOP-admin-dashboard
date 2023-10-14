@@ -2,7 +2,11 @@
   :root {
     --sm-gap: 10px;
     --med-gap: 20px;
+    --medlg-gap: 30px;
     --lg-gap: 40px;
+
+    --sm-br: 5px;
+    --med-br: 10px;
   }
 
   *,

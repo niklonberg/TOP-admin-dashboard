@@ -1,5 +1,8 @@
 @layer component {
   .project-card {
     background-color: red;
+    border-radius: var(--med-br);
+    padding: var(--medlg-gap);
+    padding-top: 0;
   }
 }
