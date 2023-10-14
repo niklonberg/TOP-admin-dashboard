@@ -1,5 +1,7 @@
 @layer component {
-  #trending-list {
+  #tweets-list {
     background-color: green;
+    border-radius: var(--med-br);
+    padding: var(--med-gap);
   }
 }

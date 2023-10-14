@@ -1,6 +1,5 @@
 @layer page {
   #dashboard-layout {
-    min-height: 100vh;
     display: grid;
     grid-template: auto 1fr / minmax(250px, 1fr) 5fr;
     grid-template-areas:
@@ -29,21 +28,32 @@
     padding-inline: var(--med-gap);
     display: grid;
     gap: var(--med-gap);
-    grid-template: 1fr 1fr / 3fr 1fr;
-    grid-template-areas:
-      "projects anno"
-      "projects trending";
+    grid-template-columns: 3fr 1fr;
+    /* grid-template-areas:
+      "projects annos"
+      "projects tweets"; */
   }
 
-  #projects {
+  #updates {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  /* #dashboard-main #projects {
     grid-area: projects;
   }
 
-  #announcements {
-    grid-area: anno;
+  #dashboard-main #announcements {
+    grid-area: annos;
   }
 
-  #trending {
-    grid-area: trending;
+  #dashboard-main #tweets {
+    grid-area: tweets;
+  } */
+
+  #dashboard-main #announcements-list,
+  #dashboard-main #tweets-list {
+    overflow-y: scroll;
+    max-height: 450px;
   }
 }
