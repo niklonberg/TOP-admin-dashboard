@@ -1,8 +1,24 @@
 @layer component {
   .project-card {
+    position: relative;
     background-color: red;
     border-radius: var(--med-br);
     padding: var(--medlg-gap);
-    padding-top: 0;
+  }
+
+  .project-card h4 {
+    margin-top: 0;
+  }
+
+  .project-card::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100%;
+    width: 10px;
+    border-top-left-radius: var(--med-br);
+    border-bottom-left-radius: var(--med-br);
+    background-color: black;
   }
 }
