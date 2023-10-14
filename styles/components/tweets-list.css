@@ -1,2 +1,5 @@
 @layer component {
+  #trending-list {
+    background-color: green;
+  }
 }
