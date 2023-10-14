@@ -12,4 +12,6 @@
 @import url(./styles/components/user-notifications.css);
 @import url(./styles/components/user-welcome.css);
 @import url(./styles/components/user-actions.css);
+@import url(./styles/components/projects-list.css);
+@import url(./styles/components/project-card.css);
 @import url(./styles/page/dashboard-page.css);

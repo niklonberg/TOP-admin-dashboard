@@ -1,0 +1,5 @@
+@layer component {
+  .project-card {
+    background-color: red;
+  }
+}
