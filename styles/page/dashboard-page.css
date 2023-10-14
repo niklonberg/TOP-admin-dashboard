@@ -28,6 +28,7 @@
   #dashboard-main {
     padding-inline: var(--med-gap);
     display: grid;
+    gap: var(--med-gap);
     grid-template: 1fr 1fr / 3fr 1fr;
   }
 }

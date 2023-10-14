@@ -1,2 +1,8 @@
 @layer component {
+  #projects-list {
+    display: grid;
+    gap: var(--med-gap);
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: 250px;
+  }
 }
