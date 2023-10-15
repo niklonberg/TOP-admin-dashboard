@@ -4,4 +4,20 @@
     border-radius: var(--med-br);
     padding: var(--med-gap);
   }
+
+  .item-links-list div {
+    border-bottom: 1px solid var(--btm-border-clr);
+  }
+
+  .item-links-list a:last-child div {
+    border-bottom: none;
+  }
+
+  .item-links-list a:first-child h4 {
+    margin-top: 0;
+  }
+
+  .item-links-list a {
+    text-decoration: none;
+  }
 }
