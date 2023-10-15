@@ -21,7 +21,7 @@
     left: 0;
     content: "";
     height: 100%;
-    width: 10px;
+    width: 2%;
     border-top-left-radius: var(--med-br);
     border-bottom-left-radius: var(--med-br);
     background-color: black;
@@ -35,7 +35,7 @@
 
   .project-actions {
     display: flex;
-    gap: var(--sm-gap);
+    gap: var(--med-gap);
     justify-content: end;
   }
 }
