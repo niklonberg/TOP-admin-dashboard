@@ -7,6 +7,14 @@
 
     --sm-br: 5px;
     --med-br: 10px;
+
+    /* colors */
+    --primary-clr: #1c7fb8;
+    --text-clr: rgb(27, 27, 27);
+  }
+
+  p {
+    color: var(--text-clr);
   }
 
   *,

@@ -8,6 +8,7 @@
 
   .project-card h4 {
     margin-top: 0;
+    text-align: center;
   }
 
   .project-card::before {
