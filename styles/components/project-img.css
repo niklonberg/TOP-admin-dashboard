@@ -1,0 +1,7 @@
+@layer component {
+  .project-img {
+    width: 100%;
+    border-radius: var(--med-br);
+    box-shadow: 5px 5px 4px rgba(0 0 0 / 0.5);
+  }
+}
