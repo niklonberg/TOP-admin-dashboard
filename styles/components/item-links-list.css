@@ -5,6 +5,20 @@
     padding: var(--med-gap);
   }
 
+  .item-links-list::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  .item-links-list::-webkit-scrollbar-thumb {
+    background: var(--accent-clr);
+    border-radius: 9999px;
+  }
+
+  .item-links-list::-webkit-scrollbar-track {
+    background: var(--btm-border-clr);
+    border-radius: var(--med-br);
+  }
+
   .item-links-list div {
     border-bottom: 1px solid var(--btm-border-clr);
   }
