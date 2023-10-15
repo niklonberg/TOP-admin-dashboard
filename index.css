@@ -4,8 +4,7 @@
 @import url(./styles/components/nav.css);
 @import url(./styles/components/header.css);
 @import url(./styles/components/projects-list.css);
-@import url(./styles/components/announcements-list.css);
-@import url(./styles/components/tweets-list.css);
+@import url(./styles/components/item-links-list.css);
 @import url(./styles/components/search-bar.css);
 @import url(./styles/components/buttons.css);
 @import url(./styles/components/avatar.css);

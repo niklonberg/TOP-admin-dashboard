@@ -1,5 +1,5 @@
 @layer component {
-  #announcements-list {
+  .item-links-list {
     background-color: lightblue;
     border-radius: var(--med-br);
     padding: var(--med-gap);
