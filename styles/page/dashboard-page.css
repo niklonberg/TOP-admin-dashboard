@@ -34,11 +34,6 @@
       "projects tweets"; */
   }
 
-  #updates {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
-
   /* #dashboard-main #projects {
     grid-area: projects;
   }
