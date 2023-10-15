@@ -4,6 +4,8 @@
     background-color: red;
     border-radius: var(--med-br);
     padding: var(--medlg-gap);
+    display: grid;
+    grid-template-rows: 1fr;
   }
 
   .project-card h4 {
