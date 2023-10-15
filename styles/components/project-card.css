@@ -11,6 +11,10 @@
     text-align: center;
   }
 
+  .project-card a {
+    text-decoration: none;
+  }
+
   .project-card::before {
     position: absolute;
     top: 0;
@@ -21,5 +25,17 @@
     border-top-left-radius: var(--med-br);
     border-bottom-left-radius: var(--med-br);
     background-color: black;
+  }
+
+  .project-img {
+    width: 100%;
+    border-radius: var(--med-br);
+    box-shadow: 5px 5px 4px rgba(0 0 0 / 0.5);
+  }
+
+  .project-actions {
+    display: flex;
+    gap: var(--sm-gap);
+    justify-content: end;
   }
 }
