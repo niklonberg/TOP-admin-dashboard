@@ -24,4 +24,8 @@
 
   .github-link-btn {
   }
+
+  .github-link-btn:hover {
+    animation: spin 1s;
+  }
 }
