@@ -52,6 +52,5 @@
   #dashboard-main .item-links-list {
     overflow-y: scroll;
     max-height: 450px;
-    scrollbar-color: red yellow;
   }
 }
