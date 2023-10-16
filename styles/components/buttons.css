@@ -1,6 +1,27 @@
 @layer component {
+  .btn {
+    cursor: pointer;
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: opacity 200ms, translate 200ms;
+  }
+
   .search-btn {
     display: flex;
     align-items: center;
+  }
+
+  .action-btn {
+    background-color: var(--accent-clr);
+    color: var(--text-clr);
+    padding: 0.5em 1em;
+    text-align: center;
+    border-radius: 9999px;
+  }
+
+  .github-link-btn {
   }
 }
