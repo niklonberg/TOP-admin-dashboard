@@ -32,25 +32,33 @@
     display: grid;
     gap: var(--med-gap);
     grid-template-columns: 3fr 1fr;
-    /* grid-template-areas:
-      "projects annos"
-      "projects tweets"; */
   }
-
-  /* #dashboard-main #projects {
-    grid-area: projects;
-  }
-
-  #dashboard-main #announcements {
-    grid-area: annos;
-  }
-
-  #dashboard-main #tweets {
-    grid-area: tweets;
-  } */
 
   #dashboard-main .item-links-list {
     overflow-y: scroll;
     max-height: 450px;
+  }
+
+  @media (max-width: 1035px) {
+    #dashboard-header {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+
+    .user-notifications {
+      justify-self: center;
+    }
+
+    #dashboard-main {
+      grid-template-columns: 1fr;
+    }
+
+    #dashboard-main .item-links-list {
+      max-height: 200px;
+    }
+
+    #dashboard-main #projects-list {
+      grid-template-columns: 1fr;
+    }
   }
 }
