@@ -21,4 +21,17 @@
     align-items: center;
     text-decoration: none;
   }
+
+  #scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+  }
+
+  #scroll-to-top a {
+    display: flex;
+    align-items: center;
+    gap: var(--sm-gap);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
 }

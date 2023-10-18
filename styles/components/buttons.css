@@ -9,6 +9,10 @@
     transition: opacity 200ms, translate 200ms;
   }
 
+  .btn:hover {
+    opacity: 1;
+  }
+
   .search-btn {
     display: flex;
     align-items: center;
