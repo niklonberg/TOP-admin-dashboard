@@ -17,6 +17,9 @@
     --btm-border-clr: rgb(101, 101, 101);
   }
 
+  html.dark-theme {
+  }
+
   p {
     color: var(--text-clr);
   }

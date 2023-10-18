@@ -1,0 +1,7 @@
+@layer component {
+  #toggle-theme svg {
+    height: 25px;
+    width: 25px;
+    fill: var(--accent-clr);
+  }
+}
