@@ -23,9 +23,11 @@
   }
 
   .github-link-btn {
+    height: 25px;
+    transition: transform 1.25s ease-in-out;
   }
 
   .github-link-btn:hover {
-    animation: spin 1s;
+    transform: rotate(720deg);
   }
 }
