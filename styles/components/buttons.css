@@ -24,10 +24,23 @@
 
   .github-link-btn {
     height: 25px;
-    transition: transform 1.25s ease-in-out;
+    transition: transform 1s ease-in-out;
   }
 
   .github-link-btn:hover {
-    transform: rotate(720deg);
+    transform: rotate(360deg) scale(1.5);
+  }
+
+  .github-link-btn img {
+    fill: red;
+  }
+
+  .github-link-icon {
+    height: 25px;
+    width: 25px;
+  }
+
+  .github-link-btn:hover .github-link-icon {
+    fill: red;
   }
 }
