@@ -15,6 +15,7 @@
     padding: 6px 16px;
     border-radius: 9999px;
     background-color: var(--secondary-clr);
+    color: var(--text-clr);
     border: 0;
     flex-grow: 1;
   }
