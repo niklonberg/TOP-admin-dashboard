@@ -12,16 +12,22 @@
     --main-clr: rgb(255, 255, 255);
     --primary-clr: rgb(72, 167, 222);
     --secondary-clr: rgb(206, 233, 241);
-    --accent-clr: rgb(238, 178, 65);
+    --accent-clr: rgb(221, 163, 57);
     --text-clr: rgb(27, 27, 27);
     --btm-border-clr: rgb(101, 101, 101);
   }
 
-  html.dark-theme {
+  html {
+    background-color: var(--main-clr);
+    color: var(--text-clr);
   }
 
-  p {
-    color: var(--text-clr);
+  html.dark-theme {
+    --main-clr: rgb(34, 34, 34);
+    --primary-clr: rgb(221, 163, 57);
+    --secondary-clr: rgb(0, 0, 0);
+    --accent-clr: rgb(72, 167, 222);
+    --text-clr: rgb(255, 255, 255);
   }
 
   *,
