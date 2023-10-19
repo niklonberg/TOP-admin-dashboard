@@ -23,6 +23,10 @@
     border-bottom: 1px solid var(--btm-border-clr);
   }
 
+  .item-links-list a > div:hover {
+    text-decoration: underline;
+  }
+
   .item-links-list a:last-child div {
     border-bottom: none;
   }

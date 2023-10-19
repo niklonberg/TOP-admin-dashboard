@@ -4,4 +4,9 @@
     width: 25px;
     fill: var(--accent-clr);
   }
+
+  #toggle-theme svg:hover {
+    outline: 4px solid var(--accent-clr);
+    border-radius: 50%;
+  }
 }
